@@ -26,4 +26,10 @@ public class UserController {
             return "körte";
         }
     }
+
+    @GetMapping("/alma")
+    @ResponseBody
+    public String getRes() {
+        return "kiskutyafasza jwt login működik geci!";
+    }
 }
